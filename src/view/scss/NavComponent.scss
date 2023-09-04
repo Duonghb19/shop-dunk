@@ -1,0 +1,165 @@
+.header {
+  z-index: 10;
+  position: sticky;
+  top: 0px;
+}
+.header-page {
+  //   padding: 8px;
+  width: 100%;
+  background-color: #515154;
+}
+
+a {
+  color: white;
+}
+.header-top {
+  padding: 5px;
+}
+.header-top,
+.top-menu,
+.icon-language,
+.icon-nav,
+.icon-language,
+.topic-items a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-home-nav {
+  margin: 5px;
+}
+.img-home-nav a img {
+  max-width: 173px;
+  max-height: 64px;
+  opacity: 1;
+  object-fit: cover;
+}
+.top-menu {
+  gap: 15px;
+}
+.icon-nav {
+  font-size: 18px;
+  gap: 15px;
+}
+.icon-language {
+  gap: 5px;
+}
+.topic-items a {
+  gap: 3px;
+}
+svg {
+  fill: aliceblue;
+}
+.menu-items a,
+.topic-items a {
+  padding: 17px 14px;
+}
+.menu-items:hover a,
+.topic-items:hover a {
+  background-color: #626265;
+}
+.child-menu {
+  display: none;
+  position: absolute;
+  width: 12%;
+  z-index: 9999;
+}
+.child-menu-content {
+  background-color: #515154;
+}
+.child-menu-content a {
+  padding: 14px;
+}
+
+.topic-items:hover .child-menu,
+.icon-user:hover .icon-user-child {
+  display: block;
+}
+.icon-user-child {
+  display: none;
+  background-color: white;
+  right: 240px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  top: 40px;
+  position: absolute;
+  width: 11%;
+  z-index: 9999;
+  font-size: 16px;
+}
+.item-child-user {
+  border-bottom: 1px solid #80808026;
+  padding: 7px 0;
+
+  a {
+    color: black;
+  }
+}
+.item-child-user:last-child {
+  border: none;
+}
+.item-child-user:hover a {
+  color: #277dd3;
+}
+.nav__bars-btn {
+  display: none;
+  width: 28px;
+  height: 18px;
+  margin-left: 12px;
+}
+
+.nav-mobile-input {
+  transform: translateY(-180%);
+  position: fixed;
+  top: 98px;
+  bottom: 0;
+  left: 6px;
+  width: 814px;
+  max-width: 100%;
+}
+
+.menu-list-mobile {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.menu-item-link {
+  padding: 15px 20px;
+  border-bottom: 1px solid #a9a9a94f;
+}
+.menu-item-link:last-child {
+  border: none;
+}
+.menu-item-link a {
+  color: black;
+  font-size: 15px;
+}
+.nav__input:checked ~ .nav-mobile-input {
+  transform: translateY(0);
+}
+.menu-mobile {
+  display: none;
+  background-color: #ffffff;
+  .item-mobile {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.menu-items-mobile {
+  margin: 1px 0;
+  padding: 10px 5px;
+  a {
+    color: black;
+  }
+}
+.icon-language-res {
+  display: none;
+}
+.icon-language-mobile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.icon-header-mobile {
+  display: flex;
+  align-items: center;
+}
