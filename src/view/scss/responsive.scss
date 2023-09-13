@@ -1,4 +1,13 @@
 @media (max-width: 739px) {
+  :where(.css-dev-only-do-not-override-17a39f8).ant-row {
+    display: unset;
+  }
+  .responsive-product {
+    min-width: fit-content;
+  }
+  .col-title-product {
+    min-width: 100%;
+  }
   .menu-nav {
     display: none;
   }
@@ -181,10 +190,7 @@
   .row-all-product {
     display: block;
   }
-  .responsive-product,
-  .col-title-product {
-    max-width: 100%;
-  }
+
   .img-head-intro {
     img {
       min-width: -webkit-fill-available;

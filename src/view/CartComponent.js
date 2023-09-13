@@ -264,11 +264,11 @@ const CartComponent = () => {
                   </span>
 
                   <Radio.Group onChange={onChange} value={value}>
-                    <Radio value={1} className="radio-cate">
+                    <Radio value={5} className="radio-cate">
                       {" "}
                       <img src={logo1} alt="" /> Thanh toán Kredivo
                     </Radio>
-                    <Radio value={2} className="radio-cate">
+                    <Radio value={6} className="radio-cate">
                       {" "}
                       <img src={logo2} alt="" /> Thanh toán OnePay
                     </Radio>
